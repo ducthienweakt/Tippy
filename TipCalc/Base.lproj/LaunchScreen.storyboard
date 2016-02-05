@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1hR-Ab-tfe"/>
+                        <viewControllerLayoutGuide type="bottom" id="RlS-kg-TxJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand132.png" translatesAutoresizingMaskIntoConstraints="NO" id="llT-kU-daA">
+                                <rect key="frame" x="60" y="80" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6CM-eS-qe6"/>
+                                    <constraint firstAttribute="width" constant="200" id="HK5-cl-2sZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tippy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLq-FS-xUI">
+                                <rect key="frame" x="60" y="311" width="200" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="3w7-FC-z4h"/>
+                                    <constraint firstAttribute="width" constant="200" id="emq-4a-iJX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZZC-pO-ayV">
+                                <rect key="frame" x="40" y="527" width="240" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright @2015 Sparta Team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41B-uC-0Np">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="ByE-KQ-oIq"/>
+                                            <constraint firstAttribute="height" constant="21" id="ZwN-NS-eLH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="top" secondItem="ZZC-pO-ayV" secondAttribute="top" id="0lf-ce-1rd"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="top" secondItem="ZZC-pO-ayV" secondAttribute="top" id="E6z-JB-Dom"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="top" secondItem="ZZC-pO-ayV" secondAttribute="top" id="Lz4-au-kKz"/>
+                                    <constraint firstAttribute="bottom" secondItem="41B-uC-0Np" secondAttribute="bottom" id="QVz-Ei-GUp"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="centerY" secondItem="ZZC-pO-ayV" secondAttribute="centerY" id="XET-LA-xBl"/>
+                                    <constraint firstAttribute="bottom" secondItem="41B-uC-0Np" secondAttribute="bottom" id="XJf-xo-gVI"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="bottom" secondItem="ZZC-pO-ayV" secondAttribute="bottomMargin" id="Yrc-oc-Ehk"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="top" secondItem="ZZC-pO-ayV" secondAttribute="top" id="pdg-lF-At8"/>
+                                    <constraint firstItem="41B-uC-0Np" firstAttribute="top" secondItem="ZZC-pO-ayV" secondAttribute="topMargin" id="uXm-6D-Xbi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="llT-kU-daA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="23v-qS-Ix2"/>
+                            <constraint firstItem="NLq-FS-xUI" firstAttribute="top" secondItem="llT-kU-daA" secondAttribute="bottom" constant="31" id="LVc-LH-8Lg"/>
+                            <constraint firstItem="41B-uC-0Np" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hPM-J2-Fc4"/>
+                            <constraint firstItem="NLq-FS-xUI" firstAttribute="trailing" secondItem="llT-kU-daA" secondAttribute="trailing" id="rTa-zY-cJM"/>
+                            <constraint firstAttribute="bottom" secondItem="ZZC-pO-ayV" secondAttribute="bottom" constant="20" symbolic="YES" id="rmL-Ol-mgi"/>
+                            <constraint firstItem="llT-kU-daA" firstAttribute="top" secondItem="1hR-Ab-tfe" secondAttribute="bottom" constant="60" id="tlJ-pf-3L1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hand132.png" width="512" height="512"/>
+    </resources>
+</document>
