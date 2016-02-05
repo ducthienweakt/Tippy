@@ -17,7 +17,7 @@ Time spent: 5 hours spent in total
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://i.imgur.com/pZFddBL.jpg)
+![Video Walkthrough](/tippy.gif)
 
 ## License
 
