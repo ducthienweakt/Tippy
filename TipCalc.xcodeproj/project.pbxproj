@@ -13,8 +13,6 @@
 		01D12EF11C643FDB00B6CF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D12EF01C643FDB00B6CF5E /* Assets.xcassets */; };
 		01D12EF41C643FDB00B6CF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D12EF21C643FDB00B6CF5E /* LaunchScreen.storyboard */; };
 		01D12EFC1C6454AE00B6CF5E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D12EFB1C6454AE00B6CF5E /* SettingsViewController.swift */; };
-		01D12EFE1C645B3800B6CF5E /* hand132.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D12EFD1C645B3800B6CF5E /* hand132.png */; };
-		01D12F021C64614200B6CF5E /* tool418.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D12F011C64614200B6CF5E /* tool418.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		01D12EF31C643FDB00B6CF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01D12EF51C643FDB00B6CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D12EFB1C6454AE00B6CF5E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		01D12EFD1C645B3800B6CF5E /* hand132.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hand132.png; path = ../../../../Downloads/hand132.png; sourceTree = "<group>"; };
-		01D12F011C64614200B6CF5E /* tool418.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tool418.png; path = ../../../../Downloads/tool418.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +56,6 @@
 		01D12EE81C643FDB00B6CF5E /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
-				01D12F011C64614200B6CF5E /* tool418.png */,
-				01D12EFD1C645B3800B6CF5E /* hand132.png */,
 				01D12EE91C643FDB00B6CF5E /* AppDelegate.swift */,
 				01D12EEB1C643FDB00B6CF5E /* ViewController.swift */,
 				01D12EED1C643FDB00B6CF5E /* Main.storyboard */,
@@ -134,8 +128,6 @@
 				01D12EF41C643FDB00B6CF5E /* LaunchScreen.storyboard in Resources */,
 				01D12EF11C643FDB00B6CF5E /* Assets.xcassets in Resources */,
 				01D12EEF1C643FDB00B6CF5E /* Main.storyboard in Resources */,
-				01D12F021C64614200B6CF5E /* tool418.png in Resources */,
-				01D12EFE1C645B3800B6CF5E /* hand132.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +290,7 @@
 				01D12EFA1C643FDB00B6CF5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
