@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet weak var percetageSegment: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        billField.delegate = self
         
        
     }
@@ -32,7 +33,6 @@ class ViewController: UIViewController {
         //animation
         super.viewWillAppear(animated)
     }
-    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
@@ -66,6 +66,12 @@ class ViewController: UIViewController {
     @IBAction func onTapped(sender: AnyObject) {
         self.view.endEditing(true)
     }
-    
+    // return if the replacementString only contains numeric characters
+    func textField(textField: UITextField,
+        shouldChangeCharactersInRange range: NSRange,
+        replacementString string: String) -> Bool {
+        let newCharacters = NSCharacterSet(charactersInString: string)
+        return NSCharacterSet.decimalDigitCharacterSet().isSupersetOfSet(newCharacters)
+    }
 }
 
